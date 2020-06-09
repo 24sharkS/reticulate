@@ -73,11 +73,11 @@ T getConfig(std::string config, T defValue) {
 }
 
 bool convertLongToBit64() {
-  return getConfig<bool>(CONFIG_LONG_AS_BIT64, false);
+  return getConfig<bool>(CONFIG_LONG_AS_BIT64, true);
 }
 
 bool convertULongToBit64() {
-  return getConfig<bool>(CONFIG_ULONG_AS_BIT64, false);
+  return getConfig<bool>(CONFIG_ULONG_AS_BIT64, true);
 }
 
 
